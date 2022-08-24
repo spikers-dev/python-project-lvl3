@@ -12,11 +12,11 @@ lint:
 build: check
 	@poetry build
  
-# run_test:
-# 	poetry run pytest --cov=loader --cov-report xml tests/
+run_test:
+	poetry run pytest --cov=loader --cov-report xml tests/
  
  
-# .PHONY: install test lint selfcheck check build
+.PHONY: install test lint selfcheck check build
 
 package-install:
 	pip install --user dist/*.whl
