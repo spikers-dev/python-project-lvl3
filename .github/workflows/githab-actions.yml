@@ -22,8 +22,8 @@ jobs:
         run: |
             pip install poetry
             make install
-      # - name: run linter
-      #   run: make lint
+      - name: run linter
+        run: make lint
       # - name: Publish code coverage stat
       #   uses: paambaati/codeclimate-action@v2.7.5
       #   env:

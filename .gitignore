@@ -1,0 +1,13 @@
+.venv
+*__pycache__*
+cc-test-reporter
+.pytest_cache
+.vscode
+*.swp
+coverage.xml
+.coverage
+*.egg-info/
+dist
+*downloads*
+*.log
+commands

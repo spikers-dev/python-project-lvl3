@@ -6,6 +6,9 @@ authors = ["Aleksandr Shpynev <spikers@inbox.ru>"]
 
 [tool.poetry.dependencies]
 python = "3.9.13"
+pytest-cov = "^3.0.0"
+pytest = "^7.1.2"
+flake8 = "^5.0.4"
 
 [tool.poetry.dev-dependencies]
 
